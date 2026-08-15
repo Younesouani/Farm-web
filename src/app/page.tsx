@@ -140,11 +140,9 @@ export default function Storefront() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="bg-emerald-600 text-white p-2 rounded-xl">
-            <Leaf className="w-6 h-6" />
-          </div>
-          <span className="text-2xl font-bold tracking-tight text-emerald-950">Ecolife</span>
+        <div className="flex items-center gap-3">
+          <img src="/icon.png" alt="Ecolife Logo" className="w-10 h-10 rounded-xl shadow-sm" />
+          <span className="text-xl font-extrabold text-emerald-950">Ecolife Farm</span>
         </div>
 
         <button
